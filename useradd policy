@@ -1,0 +1,29 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "iam:ListPolicies",
+                "iam:CreateGroup",
+                "iam:GetPolicy",
+                "iam:DeleteGroup",
+                "iam:ListGroupPolicies",
+                "iam:DeleteUser",
+                "iam:CreateUser",
+                "iam:GetGroup",
+                "iam:RemoveUserFromGroup",
+                "iam:AddUserToGroup",
+                "iam:ListGroupsForUser",
+                "iam:AttachGroupPolicy",
+                "iam:ListUsers",
+                "iam:ListGroups",
+                "iam:GetGroupPolicy",
+                "iam:GetUser",
+                "iam:DeleteGroupPolicy"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
